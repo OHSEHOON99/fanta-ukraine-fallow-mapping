@@ -1,0 +1,18 @@
+paths:
+  ndvi_raw_dir: data/raw/ndvi
+  cropmap_raw_dir: data/raw/cropmap
+  boundary_file: data/external/Ukraine_Polygon_GAUL2015.geojson
+  outputs_dir: outputs
+
+years:
+  ndvi_start: 2013
+  ndvi_end: 2023
+  pure_crop_start: 2013
+  pure_crop_end: 2019
+  fallow_start: 2020
+  fallow_end: 2023
+
+cropmap:
+  cropland_values: [10, 11, 12, 20]
+  threshold_years: 5
+  first_band_year: 2000
